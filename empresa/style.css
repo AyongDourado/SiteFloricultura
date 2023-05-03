@@ -1,0 +1,129 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+header {
+    display: flex;   
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(206, 162, 104);
+    padding: 5px 20px;
+    padding-left: 50px;
+}
+
+nav  
+{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 35px;
+}
+
+nav div {
+    display: flex;
+    gap: 35px;
+}
+
+.banner{
+    width: 100%;
+    height: 120px;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+
+/* Index: */
+body{
+    margin: 0 0 60px; /* altura do footer */
+    text-align: center;
+}
+
+.texto { /* Textos da página principal*/
+    padding-left: 150px;
+    padding-right: 150px;
+    text-justify: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {  /* Onde estão as imagens da página principal*/
+    margin: auto;
+    background-color: rgb(250, 241, 194);
+    text-align-last: center;
+    border-radius: 20%;
+}
+
+.container img {   
+    max-width: 200px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    display: inline-block;   
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 25px;
+}
+
+#tituloTabela {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+
+}
+
+.tabela{
+    margin: auto;
+    table-layout: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* Sobre: */
+.sobre {
+    padding-left: 70px;
+    padding-right: 70px;
+    text-justify: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+/*Formulário*/
+.navForm{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.formulario {
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+    text-align: center;
+} 
+
+
+/*Galeria*/
+.fotos img{
+    max-width: 400px;
+    max-height: 700px;
+}
+
+
+/* Rodapé*/
+#rodape{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align-last: center;
+    font-size: smaller;
+}
